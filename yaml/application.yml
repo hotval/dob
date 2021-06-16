@@ -19,8 +19,8 @@ spec:
         app: auto-demo
     spec:
       containers:
-      - name: auto-demo-container
-        image: shekeriev/k8s-jenkins:%IMAGE-PLACEHOLDER%
+      - name: nginx-container
+        image: nginx
         ports:
         - containerPort: 80 
 ---
