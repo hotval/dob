@@ -1,2 +1,2 @@
-FROM wyveo/nginx-php-fpm
+FROM nginx
 COPY html/* /usr/share/nginx/html/
